@@ -2,6 +2,8 @@
 
 # @farvardin/codemirror-lang-markdown [![NPM version](https://img.shields.io/npm/v/@farvardin/codemirror-lang-markdown.svg)](https://www.npmjs.org/package/@farvardin/codemirror-lang-markdown)
 
+fork of https://www.npmjs.com/package/@codemirror/lang-markdown
+
 [ [**WEBSITE**](https://codemirror.net/) | [**ISSUES**](https://github.com/codemirror/dev/issues) | [**FORUM**](https://discuss.codemirror.net/c/next/) | [**CHANGELOG**](https://github.com/codemirror/lang-markdown/blob/main/CHANGELOG.md) ]
 
 This package implements ~~Markdown~~ txt2tags language support for the
