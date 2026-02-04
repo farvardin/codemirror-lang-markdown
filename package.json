@@ -1,30 +1,35 @@
 {
-  "name": "@codemirror/lang-markdown",
+  "name": "@farvardin/codemirror-lang-markdown",
   "version": "6.5.0",
-  "description": "Markdown language support for the CodeMirror code editor",
-  "scripts": {
-    "test": "cm-runtests",
-    "prepare": "cm-buildhelper src/index.ts"
-  },
+  "description": "txt2tags/Markdown language support for the CodeMirror code editor",
   "keywords": [
     "editor",
     "code"
   ],
-  "author": {
-    "name": "Marijn Haverbeke",
-    "email": "marijn@haverbeke.berlin",
-    "url": "http://marijnhaverbeke.nl"
+  "homepage": "https://github.com/farvardin/codemirror-lang-markdown#readme",
+  "bugs": {
+    "url": "https://github.com/farvardin/codemirror-lang-markdown/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farvardin/codemirror-lang-markdown.git"
+  },
+  "license": "MIT",
+  "author": "Éric Forgeot <eforgeot@gmail.com> (https://github.com/farvardin/)",
   "type": "module",
-  "main": "dist/index.cjs",
   "exports": {
     "import": "./dist/index.js",
     "require": "./dist/index.cjs"
   },
+  "main": "dist/index.cjs",
   "types": "dist/index.d.ts",
-  "module": "dist/index.js",
-  "sideEffects": false,
-  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "cm-runtests",
+    "prepare": "cm-buildhelper src/index.ts"
+  },
   "dependencies": {
     "@codemirror/autocomplete": "^6.7.1",
     "@codemirror/lang-html": "^6.0.0",
@@ -37,8 +42,6 @@
   "devDependencies": {
     "@codemirror/buildhelper": "^1.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codemirror/lang-markdown.git"
-  }
+  "module": "dist/index.js",
+  "sideEffects": false
 }
