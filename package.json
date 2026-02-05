@@ -39,6 +39,9 @@
     "@farvardin/lezer-parser-markdown": "^1.6.3",
     "@lezer/common": "^1.2.1"
   },
+    "resolutions": {
+      "@farvardin/lezer-parser-markdown": "1.6.3"
+  },
   "devDependencies": {
     "@codemirror/buildhelper": "^1.0.0"
   },
